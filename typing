@@ -1,0 +1,17 @@
+#!/bin/sh
+
+input='starting process...   pie ki-rari'
+length=$((${#input} - 1))
+wait_time=0.1
+outputs=''
+
+for i in `seq 0 1 $length`
+do
+    output=${input:$i:1}
+    outputs=${outputs}${output}
+    echo $outputs
+    printf '\e[0A\e[11G\e[0K'
+    sleep $wait_time
+done
+
+echo $outputs

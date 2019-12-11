@@ -15,3 +15,5 @@ do
 done
 
 echo $outputs
+
+while sleep 60; do :; done

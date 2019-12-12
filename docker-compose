@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = "up" ]; then
+  afplay audio.m4a
+fi
+
+/usr/local/bin/docker-compose $@

@@ -10,7 +10,7 @@ do
     output=${input:$i:1}
     outputs=${outputs}${output}
     echo $outputs
-    printf '\e[0A\e[11G\e[0K'
+    printf '\e[0A\e[12G\e[0K'
     sleep $wait_time
 done
 

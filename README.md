@@ -10,7 +10,7 @@ https://twitter.com/piepielielie/status/1204747955963494402
 - Mac のみ動作確認しています．Windowsだと動かないと思います．
 - audio.m4a は自分で用意してください
 
-```
+```bash
 # docker-compose コマンドが書き換わっているのを試したい方
 $ source ./setup
 $ docker-compose up
@@ -19,7 +19,7 @@ Attaching to pie-kirari_hello_1
 hello_1  |starting process... pie ki-rari
 ```
 
-```
+```bash
 # これでも動くんだけどね
-PATH=$(pwd):$PATH docker-compose up
+$ PATH=$(pwd):$PATH docker-compose up
 ```

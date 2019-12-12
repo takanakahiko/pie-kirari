@@ -20,6 +20,6 @@ hello_1  |starting process... pie ki-rari
 ```
 
 ```bash
-# これでも動くんだけどね
+# これでも動くんだけどね
 $ PATH=$(pwd):$PATH docker-compose up
 ```
